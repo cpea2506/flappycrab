@@ -6,7 +6,7 @@ struct Speed {
     y: f32,
 }
 
-#[derive(Component)]
-struct Bird {
+#[derive(Default, Component)]
+pub struct Bird {
     speed: Speed,
 }
